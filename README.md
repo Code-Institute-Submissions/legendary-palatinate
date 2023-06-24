@@ -1,6 +1,7 @@
 # Legendary Palatinate
 
-Join our hunting association on an extraordinary journey through untold legends of the Palatinate Forest
+Join our hunting association on an extraordinary journey through untold legends of the Palatinate Forest.
+
 The Palatinate Hunting Association is a web project that takes users on an immersive journey through the enchanting mysteries and legends of the Palatinate Forest. Rooted in the heart of continental Europe, this project aims to explore the untold stories of the forest's spirit, using rich narratives and vivid descriptions to entice and captivate the reader.
 
 ## Purpose
@@ -19,7 +20,12 @@ The Palatinate Hunting Association is a web project that takes users on an immer
 
 ### Design Thought Process
 
-**Technologies Used**
+### Technologies Used
+
+- HTML & CSS
+- Editor: Visual Studio Code
+- Version Control: GitHub, GitHub-Desktop
+- Fonts: Google-Fonts, Fontjoy
 
 **Languages**
 
@@ -29,12 +35,13 @@ The Palatinate Hunting Association is a web project that takes users on an immer
 
 **Colours**
 
-**Fonts**
-I used [Fontjoy](https://fontjoy.com/) to find suitable pairings of Google-Fonts.
+### Fonts
 
-- _UnifrakturMaguntia_ - only for the page-titles. It gives the site a sense of old European history and folklore.
-- _Cormorant Infant_ for introductory text and headings, to ensure readability while maintaing the historical feel of UnifrakturMaguntia.
-- _Pridi_ - for body text, as a legible contrast, providing a balance between decorative and functional elements.
+Google-Fonts:
+
+- _UnifrakturMaguntia_ - Only used for the page-titles. It gives the site a sense of old European history and folklore.
+- _Cormorant Infant_ - Applied for introductory text and headings, to ensure readability while maintaing the historical feel of UnifrakturMaguntia.
+- _Pridi_ - Used for body text, as a legible contrast, providing a balance between decorative and functional elements.
 
 ### User Stories
 
@@ -52,10 +59,22 @@ I used [Fontjoy](https://fontjoy.com/) to find suitable pairings of Google-Fonts
 
 ## Credits - Citation of ALL Sources
 
-- Always credit ALL sources
-- Images
-- Code
-  [Chrome DevTools](https://developer.chrome.com/docs/devtools/)
+[Chrome DevTools](https://developer.chrome.com/docs/devtools/)
+
+### Design Resources
+
+#### Images
+
+#### Fonts-Pairing
+
+I used [Fontjoy](https://fontjoy.com/) to find suitable pairings of Google-Fonts.
+
+#### Code
+
+1.  [Flexbox Container for menu](https://www.w3schools.com/css/css3_flexbox_container.asp#justify-content)
+
+#### Content
+
 - Text
 - Link to relevant site
 - Authors name/pseudonym
