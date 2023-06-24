@@ -1,6 +1,5 @@
 
 @import url('https://fonts.googleapis.com/css2?family=Cormorant+Infant&family=Pridi&family=UnifrakturMaguntia&display=swap');
-
 /* 
 font-family: 'Cormorant Infant', serif;
 font-family: 'Pridi', serif;
@@ -26,8 +25,8 @@ body {
 h1 {
    font-family: 'UnifrakturMaguntia', cursive;
        color:rgb(90, 37, 13);
-   
 }
+
 h2 {
     font-family: 'Cormorant Infant', serif;
 }
@@ -35,4 +34,17 @@ h2 {
 #logo {
     float: left;
     font-size: 200%;
+}
+
+/* Flexbox Container for menu. source#001 */
+#menu {
+    font-size: 110%;
+    letter-spacing: 2px;
+    display: flex;
+    justify-content: flex-end;
+    list-style: none;
+}
+  
+#menu li {
+    margin-right: 20px;
 }
