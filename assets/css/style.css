@@ -24,16 +24,21 @@ body {
 /* headings and logo */
 h1 {
    font-family: 'UnifrakturMaguntia', cursive;
-       color:rgb(90, 37, 13);
+   letter-spacing: 2px;
+   color:#5a250d;
 }
 
 h2 {
     font-family: 'Cormorant Infant', serif;
+    text-transform: uppercase;
+    letter-spacing: 3px;
+    color: #a0522d;
 }
 
 #logo {
     float: left;
     font-size: 200%;
+    color: #5a250d
 }
 
 /* Flexbox Container for menu. source#001 */
@@ -44,7 +49,19 @@ h2 {
     justify-content: flex-end;
     list-style: none;
 }
-  
+
+#menu, #logo {
+    line-height: 75px;
+}
+
 #menu li {
     margin-right: 20px;
+}
+
+#menu a:hover {
+    border-bottom: 1px solid #a0522d;
+}
+
+.active {
+    border-bottom: #a0522d;
 }
