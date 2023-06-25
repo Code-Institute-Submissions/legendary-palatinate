@@ -4,15 +4,21 @@ Join our hunting association on an extraordinary journey through untold legends 
 
 The Palatinate Hunting Association is a web project that takes users on an immersive journey through the enchanting mysteries and legends of the Palatinate Forest. Rooted in the heart of continental Europe, this project aims to explore the untold stories of the forest's spirit, using rich narratives and vivid descriptions to entice and captivate the reader.
 
+---
+
 ## Purpose
 
-## Main Features
+---
+
+## Features
 
 ### Project Goals
 
-## List of Features
+### List of Existing Features
 
 ### Feature Name
+
+---
 
 ## UX/UI
 
@@ -27,13 +33,11 @@ The Palatinate Hunting Association is a web project that takes users on an immer
 - Version Control: GitHub, GitHub-Desktop
 - Fonts: Google-Fonts, Fontjoy
 
-**Languages**
+### Languages
 
-**Design Choices**
+### Structure
 
-**Structure**
-
-**Colours**
+### Colours
 
 ### Fonts
 
@@ -49,39 +53,49 @@ Google-Fonts:
 
 ### Anything else you want to add that relates to UX/UI
 
+---
+
 ## Testing
 
 ### Device testing
 
 ### Performance
 
+---
+
 ## Deployment
+
+---
 
 ## Credits - Citation of ALL Sources
 
 [Chrome DevTools](https://developer.chrome.com/docs/devtools/)
 
-### Design Resources
+### Images
 
-#### Images
-
-#### Fonts-Pairing
+### Fonts-Pairing
 
 I used [Fontjoy](https://fontjoy.com/) to find suitable pairings of Google-Fonts.
 
-#### Code
+### Code
 
 1.  [Flexbox Container for menu](https://www.w3schools.com/css/css3_flexbox_container.asp#justify-content)
 
-#### Content
+### Content
 
 - Text
 - Link to relevant site
 - Authors name/pseudonym
 - Link to actual content
 
+---
+
 ## Future Features
 
+---
+
 ## Known Bugs
+
+---
 
 ## Acknowledgements
