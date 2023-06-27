@@ -8,7 +8,7 @@ font-family: 'UnifrakturMaguntia', cursive;
 
 * {margin: 0;
    padding: 0;
-   border: 0;
+   border: none;
 }
 
 a {
@@ -41,13 +41,10 @@ h2 {
     color: #5a250d
 }
 
-/* Flexbox Container for menu. source#001 */
+/* navigation links */
 #menu {
     font-size: 110%;
     letter-spacing: 2px;
-    display: flex;
-    justify-content: flex-end;
-    list-style: none;
 }
 
 #menu, #logo {
@@ -55,7 +52,14 @@ h2 {
 }
 
 #menu li {
-    margin-right: 20px;
+    float: right;
+    list-style-type: none;
+    margin-right: 30px;
+}
+
+#menu a {
+    text-decoration: none;
+    color: inherit;
 }
 
 #menu a:hover {
@@ -63,5 +67,12 @@ h2 {
 }
 
 .active {
-    border-bottom: #a0522d;
+    border-bottom: 1px solid #a0522d;
+}
+
+/* hero image */
+#hero-image {
+    height: 600px;
+    width: 100%;
+    background: url('../images/hero8.jpg') no-repeat center center;
 }
