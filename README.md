@@ -73,13 +73,13 @@ Google-Fonts:
 
 ### Images
 
+[hero8.jpg](https://commons.wikimedia.org/wiki/File:Blick_in_den_Pf%C3%A4lzerwald_von_der_Burg_Neuscharfeneck.jpg)
+
 ### Fonts-Pairing
 
 I used [Fontjoy](https://fontjoy.com/) to find suitable pairings of Google-Fonts.
 
 ### Code
-
-1.  [Flexbox Container for menu](https://www.w3schools.com/css/css3_flexbox_container.asp#justify-content)
 
 ### Content
 
