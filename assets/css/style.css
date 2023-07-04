@@ -31,7 +31,7 @@ p {
     margin-bottom: 1em;
 }
 
-h2 {
+h1 h2 {
     font-family: Cormorant Infant, sans-serif;
     text-transform: uppercase;
     letter-spacing: 2px;
@@ -105,35 +105,27 @@ h2 {
     bottom: 75px;
     left: 15%;
     width: 225px;
-    height: 180px;
+    height: auto;
+    color: #edaa3e;
+    letter-spacing: 4px;
     background-color: rgba(3, 101, 101, 0.6);
     display: flex;
     flex-direction: column;
     justify-content: space-between;
     align-items: center;
+    text-align: center;
     z-index: 2;
+    padding: 10px; 
 }
 
-#text-upper-left {
-    text-align: center;
-    margin-top: 10px;
-}
-  
-#text-bottom-right {
-    text-align: center;
-    letter-spacing: 3px;
-    padding: 0;
+#cover-text h1 {
     margin-bottom: 10px;
+    text-transform: uppercase;
 }
 
-#cover-text h2, #cover-text h3 {
-    color: #edaa3e;
-}
-
-
-#text-center {
-    text-align: center;
-    letter-spacing: 3px;
+#cover-text h2 {
+    font-size: 1em;
+    letter-spacing: 2px;
 }
 
 /* content */
@@ -173,15 +165,14 @@ section {
     color:#3a3a3a;
 }
 
-/* Latin */
+/* Latin-English Source */
 
 .textcontainer {
     display: flex;
     width: auto;
     overflow: auto;
-    margin: 20px 0 20px 0;
+    margin: 10px 0 10px 0;
 }
-
 
 .latintext {
     text-align: center;
@@ -195,7 +186,7 @@ section {
     font-family: UnifrakturMaguntia, cursive;
     font-size: 11pt;
     line-height: 1.1rem;
-    color: #5f2d14
+    color: #49210d
 }
 
 .englishtext {
@@ -207,13 +198,14 @@ section {
     justify-content: space-between;
     font-size: 9pt;
     line-height: 0.9rem;
-    background: #d2b48c
+    background: #efcda0
 }
 
 .flexcontainer {
     display: flex;
 }
 
+/* media-queries */
 @media (min-width: 321px) {
     #header {
         flex-direction: row;
@@ -244,6 +236,37 @@ section {
         justify-content: center;
     }
 }
+
+/* embeded media */
+.google-map {
+    width: 100%;
+    height: 480px;
+    max-width: 960px;
+    margin: auto;
+    display: block;
+}
+/* "Aspect Ratio Box" method */
+.video {
+    width: 100%; 
+    height: auto;
+}
+.video-container {
+    position: relative;
+    overflow: hidden;
+    width: 100%;
+    max-width: 960px;  /* new rule */
+    padding-top: 56.25%; /* for 16:9 aspect ratio */
+    margin: 0 auto; /* center the video */
+}
+
+.video-container iframe {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+}
+
 
 
 /*         animates zoom effect on loading page 
