@@ -38,7 +38,7 @@
                 <h1>Legends of the Palatinate</h1>
             </div>
         </section>
-
+        <!-- Club  -->
         <section>
 
             <div class="content">
@@ -56,7 +56,7 @@
                 </p>
             </div>
         </section>
-
+        <!-- Legends -->
         <section>
             <div class="content">
                 <h3 id="legends">Our Origins</h3>
@@ -144,8 +144,203 @@
                     the noble beast that we still hunt today during our annual event.</p>
             </div>
         </section>
+        <!-- Registration  -->
+        <section>
+            <div id="booking" class="content">
+                <h2>Book your adventure today</h2>
+                <p>Are you ready to embark on this enchanting journey?
+                    Embrace
+                    the magic of the Midsommer night and join us in the heart of the Palatinate Forest. The Elwetritsche
+                    awaits.</p>
 
+                <!-- Forms -->
+                <form action="https://formdump.codeinstitute.net" method="POST">
+                    <!-- Registration -->
+                    <form action="https://formdump.codeinstitute.net" method="POST">
+                        <!-- Registration -->
+                        <fieldset class="form-section">
+                            <legend>Your details</legend>
+                            <div class="float-left">
+                                <label for="name-field" class="block-label">Name</label>
+                                <input id="name-field" type="text" name="full_name" placeholder="Your name"
+                                    aria-label="Your name" required>
+                            </div>
+                            <div class="float-left">
+                                <label for="email-field" class="block-label">Email</label>
+                                <input id="email-field" type="email" name="email" placeholder="Your email"
+                                    aria-label="Your email" required>
+                            </div>
+                            <!-- hunting experience dropdown menu -->
+                            <label for="experience" class="block-label">What is your hunting experience?</label>
+                            <select id="experience" name="experience" aria-label="Your hunting experience" required>
+                                <option value="" selected disabled hidden>Choose here</option>
+                                <option value="novice">Novice Hunter</option>
+                                <option value="intermediate">Intermediate Hunter</option>
+                                <option value="experienced">Experienced Hunter</option>
+                            </select>
+                        </fieldset>
 
+                        <!-- Insurance Offer -->
+                        <fieldset class="form-section">
+                            <legend>Insurance Offer</legend>
+                            <!-- Radio Buttons -->
+                            <p>Would you like to buy a life insurance?</p>
+
+                            <input id="insurance-yes-radio" name="insurance" value="1" type="radio" aria-label="Yes"
+                                required>
+                            <label for="insurance-yes-radio">Yes</label>
+
+                            <input id="insurance-no-radio" name="insurance" value="0" type="radio" aria-label="No"
+                                required>
+                            <label for="insurance-no-radio">No</label>
+
+                            <div>
+                                <label for="insurance_amount" class="block-label"><br>Please select the sum
+                                    insured</label>
+                                <input id="insurance_amount" list="insurance-amount" name="insurance_amount"
+                                    aria-label="Insurance Amount" required>
+                                <datalist id="insurance-amount">
+                                    <option value="€1,000,000">
+                                    <option value="€500,000">
+                                    <option value="€250,000">
+                                    <option value="€125,000">
+                                    <option value="none">
+                                </datalist>
+                            </div>
+
+                            <!-- Event Booking -->
+                            <p>Which event(s) do you want to book?</p>
+                            <div>
+                                <input type="checkbox" id="monsalvat-checkbox" name="event" value="Monsalvat Wild Hunt">
+                                <label for="monsalvat-checkbox">Monsalvat Wild Hunt</label>
+                            </div>
+                            <div>
+                                <input type="checkbox" id="brabant-checkbox" name="event" value="Brabant Forest Hunt">
+                                <label for="brabant-checkbox">Brabant Forest Hunt</label>
+                            </div>
+                            <div>
+                                <input type="checkbox" id="elsa-checkbox" name="event" value="Elsa's Lake Pursuit">
+                                <label for="elsa-checkbox">Elsa's Lake Pursuit</label>
+                            </div>
+                        </fieldset>
+
+                        <!-- Feedback Text Area  -->
+                        <fieldset class="form-section">
+                            <legend>Feedback</legend>
+                            <label for="feedback" class="block-label">How can we improve your experience with
+                                us?</label>
+                            <br>
+                            <textarea id="feedback" rows="5" cols="80" name="feedback"
+                                aria-label="Your Feedback"></textarea>
+                        </fieldset>
+
+                        <!-- Legal Terms  -->
+                        <fieldset>
+                            <div id="terms">
+                                <h5 class="underline">OFFICIAL RULES FOR THE PALATINATE HUNTING ASSOCIATION HUNTING
+                                    EVENT
+                                </h5>
+                                <p>NO PURCHASE NECESSARY TO PARTICIPATE. Participating in the hunting event does not
+                                    guarantee
+                                    success
+                                    or safety. Subject to all federal, state, and local laws and regulations. VOID WHERE
+                                    PROHIBITED
+                                    OR
+                                    RESTRICTED.</p>
+                                <p><span class="bold">Organizer: </span>The Palatinate Hunting Association 9AD e.V.,
+                                    Elwetritsch-Alee 1,
+                                    Neustadt an der Weinstraße, Germany</p>
+                                <p><span class="bold">Eligibility: </span>
+                                    The Palatinate Hunting Association Hunting Event (“Event”) is open to all
+                                    individuals
+                                    who (i)
+                                    are 18
+                                    years of age or older at the time of participation, (ii) possess the necessary
+                                    hunting
+                                    licenses
+                                    and
+                                    permits as required by local regulations, and (iii) acknowledge and accept the
+                                    inherent
+                                    risks
+                                    associated with hunting in the wilderness, including encounters with dangerous prey
+                                    like
+                                    the
+                                    Elwetritsch. Participants must comply with all applicable laws and regulations.
+                                </p>
+                                <p><span class="bold">Event Period: </span>
+                                    Participants may engage in the Event between [Start Date] and [End Date] (“Event
+                                    Period”). The
+                                    Organizer's designated hunting grounds will be the official location for the Event.
+                                </p>
+                                <p><span class="bold">Release of Liability: </span>
+                                    BY PARTICIPATING IN THE EVENT, PARTICIPANTS HEREBY RELEASE AND HOLD HARMLESS THE
+                                    PALATINATE
+                                    HUNTING
+                                    ASSOCIATION, ITS AFFILIATES, AND THEIR RESPECTIVE DIRECTORS, OFFICERS, EMPLOYEES,
+                                    REPRESENTATIVES,
+                                    VENDORS, PARTNERS, AND AGENTS, FROM ANY AND ALL LIABILITY WHATSOEVER, INCLUDING BUT
+                                    NOT
+                                    LIMITED
+                                    TO
+                                    INJURIES, LOSSES, DAMAGES, OR DEATH, ARISING OUT OF OR IN CONNECTION WITH
+                                    PARTICIPATION
+                                    IN THE
+                                    EVENT, ENCOUNTERS WITH THE ELWETRITSCH, OR THE USE OF HUNTING EQUIPMENT, WHETHER
+                                    CAUSED
+                                    BY
+                                    NEGLIGENCE OR OTHERWISE, TO THE FULLEST EXTENT PERMITTED BY LAW.
+                                </p>
+                                <p><span class="bold">Winner Notification and Acceptance: </span>
+                                    Participants who successfully capture or neutralize the Elwetritsch during the Event
+                                    will be
+                                    contacted by the Organizer for verification and further instructions. Participants
+                                    must
+                                    comply
+                                    with
+                                    all rules and regulations set forth by the Organizer. The Organizer reserves the
+                                    right
+                                    to
+                                    disqualify
+                                    any participant who violates these rules or engages in unsafe or unethical hunting
+                                    practices.
+                                    The
+                                    Organizer's decisions are final and binding.
+                                </p>
+                                <p><span class="bold">Rules: </span>
+                                    By participating in the Event, participants agree to abide by the rules and
+                                    regulations
+                                    set
+                                    forth by
+                                    the Organizer. Participants assume all risks associated with hunting, including but
+                                    not
+                                    limited
+                                    to
+                                    physical injury, property damage, and encounters with dangerous wildlife. The
+                                    Organizer
+                                    assumes
+                                    no
+                                    liability for any injuries, losses, or damages incurred during the Event.
+                                    Participants
+                                    are
+                                    responsible for their own safety and must exercise caution at all times.
+                                </p>
+                                <p><span class="bold">Contact: </span>
+                                    For any questions or inquiries regarding the Event, please contact [Organizer
+                                    Contact
+                                    Information].
+                                </p>
+                            </div>
+                            <div>
+                                <input type="checkbox" id="terms-checkbox" name="terms-accept" value="1">
+                                <label for="terms-checkbox">Yes, I accept the terms.</label>
+                            </div>
+                        </fieldset>
+                        <!-- Submit Button -->
+                        <input type="submit" class="block-label" value="Send">
+                        <input type="reset" value="Reset Form">
+                    </form>
+            </div>
+        </section>
 
     </main>
 
