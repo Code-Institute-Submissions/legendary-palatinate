@@ -14,7 +14,22 @@ The Palatinate Hunting Association is a web project that takes users on a journe
 
 ### List of Existing Features
 
-#### Feature Name
+#### Navigation bar
+
+Featured on all HTML pages, the fully responsive navigation bar includes the logo which links to the top of the main page (rather than reloading the page for a better user experience) and a link to each section within the main page. This allows the user to easily navigate to their desired section without having to use the "back" button each time.
+When hovered over, the colour of all links changes from green to violette, which enables the user to see which link they are selecting.
+
+#### The landing page image (hero-image)
+
+is a photography taken from Wikipedia. It is a panorama view over the palatinate forest with a ruin of a castle.
+
+#### The Source Text
+
+On the legends-page is an excerpt of Julius Caesars famous book about the Gallic War. The original Latin text is set side by side with the English translation. Both are scrollable.
+
+#### The Footer
+
+The footer section includes links to social media sites.
 
 ---
 
@@ -27,12 +42,12 @@ The Palatinate Hunting Association is a web project that takes users on a journe
 ### Technologies Used
 
 - HTML & CSS
-- Editor: Visual Studio Code
+- Editor: Visual Studio Code, "Prettier"-extension from Microsoft
 - Version Control: GitHub, GitHub-Desktop
 - Fonts: Google-Fonts, Fontjoy
-- Gimp for image cropping, scaling and creation.
-- Inksape for wireframing
-- Google & YouTube API
+- Gimp: image cropping, scaling and creation.
+- Inksape: wireframes
+- Google Maps & YouTube API
 
 ### Languages
 
@@ -41,13 +56,26 @@ Latin for source-text
 
 ### Structure
 
+The website consists of three pages:
+
+- main page introduces the topics and links to the sub-pages.
+- legends-page with three section:
+  - about the club
+  - a historic source text
+  - a registration form
+- forest-page with three sections
+  - abnout the forest with an touristic image video from YouTube
+  - a Google map
+
 ### Colours
 
-Background from sky-color of hero-image
+Background is taken from sky-color of hero-image with the pipette-too from Gimp.
+Text color are variants of sepia to resemble old ink and wood.
+The link color is a saturated green complement color of the choosen text color, which is also the color of the cover-test background color that hold the headings (Titles) of each page. There is a hover-over effect of thelinks i an even sstronger complement color of that green (a saturated violette).
 
 ### Fonts
 
-Google-Fonts:
+There are three fonts used in the website and they are imported from [Google Fonts](https://fonts.google.com/).
 
 - _UnifrakturMaguntia_ - Only used for the page-titles. It gives the site a sense of old European history and folklore.
 - _Cormorant Infant_ - Applied for introductory text and headings, to ensure readability while maintaing the historical feel of UnifrakturMaguntia.
@@ -63,9 +91,17 @@ Google-Fonts:
 
 ## Testing
 
+The website has been tested for responsiveness with Google-Inspector.
+
 ### Device testing
 
+Also on a Laptop (Asus Vivobook 17") with a connected 37" monitor. It also has been tested (vertical and horozontal view) on a mobile phone (Blackview) and on a tablet (Samsung Galaxy).
+
 ### Performance
+
+**Code Validators**
+[w3-Validator](https://validator.w3.org/#validate_by_input)
+[w3-jigsaw](https://jigsaw.w3.org/css-validator/)
 
 ---
 
@@ -76,11 +112,12 @@ Google-Fonts:
 ## Credits - Citation of ALL Sources
 
 - [Chrome DevTools](https://developer.chrome.com/docs/devtools/)
+- [How to Properly Layout A Website - For Beginners](https://youtu.be/3C_22eBWpjg)
 
 ### Images
 
-[hero8.jpg](https://commons.wikimedia.org/wiki/File:Blick_in_den_Pf%C3%A4lzerwald_von_der_Burg_Neuscharfeneck.jpg)
-[paper.png] own creation with Gimp
+[hero-image.jpg](https://commons.wikimedia.org/wiki/File:Blick_in_den_Pf%C3%A4lzerwald_von_der_Burg_Neuscharfeneck.jpg)
+[paper.png] own creation with Gimp (solid noise filter, seamless-tiling filter)
 
 ### Video
 
@@ -93,6 +130,7 @@ I used [Fontjoy](https://fontjoy.com/) to find suitable pairings of Google-Fonts
 ### Code
 
 - [The "Aspect Ratio Box" method](https://www.freecodecamp.org/news/responsive-web-design-how-to-make-a-website-look-good-on-phones-and-tablets/)
+- Form based on course example (Coder's Coffeeshop).
 
 ### Text Content
 
@@ -113,6 +151,8 @@ I used [Fontjoy](https://fontjoy.com/) to find suitable pairings of Google-Fonts
 
 ## Known Bugs
 
----
+- Checkboxes don't react to "require"-condition.
 
 ## Acknowledgements
+
+- [Markdown Cheatsheet by Adam Pritchard](https://github.com/adam-p/markdown-here/wiki/Markdown-Cheatsheet)
