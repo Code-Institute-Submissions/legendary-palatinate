@@ -1,33 +1,40 @@
-# Legendary Palatinate
+# Legendary Palatinate - a Journey through the Untold Legends of the Palatinate Forest
 
-Join our hunting association on an extraordinary journey through untold legends of the Palatinate Forest.
+Welcome to Palatinate Hunting, a web project designed to immerse users in the enchanting mysteries and legends of the Palatinate Forest. My project aims to bring to life the rich folklore and captivating narratives surrounding this ancient woodland.
 
-The Palatinate Hunting Association is a web project that takes users on a journey through the enchanting mysteries and legends of the Palatinate Forest. Rooted in the heart of continental Europe, this project aims to explore the untold stories of the forest's spirit, using rich narratives and vivid descriptions to entice and captivate the reader.
+Through storytelling, a fictional hunting association invites you on an adventure deep into the heart of the Palatinate Forest. Discover the untold stories of mythical creatures, led by the legendary Eletrische, a majestic and elusive being that captures the imagination of hunters and nature enthusiasts alike.
 
----
+![website responsiveness](./assets/screenshots/resp_palatinate.jpg)
 
-## Purpose
+## Live Website
+
+[Palatinate Hunting](https://cybercygnus.github.io/legendary-palatinate/)
+
+## Repository
+
+[CyberCygnus @ Github](https://github.com/CyberCygnus/legendary-palatinate)
 
 ---
 
 ## Features
 
-### List of Existing Features
-
-#### Navigation bar
+### Navigation bar
 
 Featured on all HTML pages, the fully responsive navigation bar includes the logo which links to the top of the main page (rather than reloading the page for a better user experience) and a link to each section within the main page. This allows the user to easily navigate to their desired section without having to use the "back" button each time.
 When hovered over, the colour of all links changes from green to violette, which enables the user to see which link they are selecting.
 
-#### The landing page image (hero-image)
+### The landing page image (hero-image)
 
-is a photography taken from Wikipedia. It is a panorama view over the palatinate forest with a ruin of a castle.
+The Hero-image is a photography taken from Wikipedia. It is a panorama view over the palatinate forest with a ruin of a castle.
+![hero-image](./assets/screenshots/hero-image_small.webp)
 
-#### The Source Text
+### The Source Text
 
 On the legends-page is an excerpt of Julius Caesars famous book about the Gallic War. The original Latin text is set side by side with the English translation. Both are scrollable.
 
-#### The Footer
+### Registration Form
+
+### The Footer
 
 The footer section includes links to social media sites.
 
@@ -35,7 +42,22 @@ The footer section includes links to social media sites.
 
 ## UX/UI
 
-### Site Goals
+## UX: User Experience
+
+### User Stories
+
+As a user of Legendary Palatinate, I expect:
+
+1. **Visually Engaging Experience**: I want the website to immerse me in the world of the Palatinate Forest, with captivating visuals and a sense of adventure.
+2. **Intuitive Navigation**: I want to be able to explore the website effortlessly, with clear menus and easy-to-use navigation elements.
+3. **Understanding of the Legends**: I want to learn about the fascinating legends and mythical creatures associated with the Palatinate Forest, allowing me to delve deeper into its lore.
+4. **Engaging Content**: I want the website to provide rich narratives and descriptions that spark my imagination.
+5. **Educational Resources**: I want to access educational materials that provide insights into the history, traditions of the Palatinate.
+6. **Interactivity**: I want to have the opportunity to interact with the website, ask questions, and provide feedback, fostering a sense of community and engagement.
+
+### Site Goals and Initial Concept
+
+The initial concept of Legendary Palatinate is to create a touristic website that emulates a real hunting club, aiming to attract tourists to the enchanting Palatinate Forest region. The website aims to provide an immersive experience, offering visitors the opportunity to explore the untold legends of the forest, learn about the mythical Elwetrisch creature, and be inspired to participate in hunting events. As the project evolves, it has the potential to become an information portal for the rich history, cultural events, hotels, and restaurants of the region, showcasing its ancient castles and ruins dating back to the Celts and Romans. By blending captivating storytelling, educational content, and interactive features, the website seeks to engage visitors and ignite their curiosity about the beauty of the Palatinate Forest.
 
 ### Design Thought Process
 
@@ -64,14 +86,13 @@ The website consists of three pages:
   - a historic source text
   - a registration form
 - forest-page with three sections
-  - abnout the forest with an touristic image video from YouTube
-  - a Google map
+  - about the forest
+  - touristic image video from YouTube
+  - Google map
 
-### Colours
+### Colors
 
-Background is taken from sky-color of hero-image with the pipette-too from Gimp.
-Text color are variants of sepia to resemble old ink and wood.
-The link color is a saturated green complement color of the choosen text color, which is also the color of the cover-test background color that hold the headings (Titles) of each page. There is a hover-over effect of thelinks i an even sstronger complement color of that green (a saturated violette).
+The design of Legendary Palatinate draws inspiration from the hero image, capturing the serene blue of the sky for the background color. This evokes calm and tranquility, complementing the lush greenery of the Palatinate Forest. The text color resembles old ink and wood, adding a touch of nostalgia. Links feature a saturated green, harmonizing with the forest and reinforcing the project's theme. A hover-over effect applies a stronger complement color, a saturated violet, for interactivity. This design aims to create an immersive and visually captivating experience
 
 ### Fonts
 
@@ -81,11 +102,12 @@ There are three fonts used in the website and they are imported from [Google Fon
 - _Cormorant Infant_ - Applied for introductory text and headings, to ensure readability while maintaing the historical feel of UnifrakturMaguntia.
 - _Pridi_ - Used for body text, as a legible contrast, providing a balance between decorative and functional elements.
 
-### User Stories
-
 ### Wireframes
 
-### Anything else you want to add that relates to UX/UI
+I prefer a traditional approach to wireframing, starting with the simplicity of pen and paper to sketch out my initial ideas. Once I have a basic outline, I utilize Inkscape, a powerful vector graphics editor, to refine and add details to my wireframes.
+
+![wireframe](./assets/screenshots/screen-inkscape.webp)
+![Structure](./assets/screenshots/palatinate_structure.jpg)
 
 ---
 
@@ -95,7 +117,11 @@ The website has been tested for responsiveness with Google-Inspector.
 
 ### Device testing
 
-Also on a Laptop (Asus Vivobook 17") with a connected 37" monitor. It also has been tested (vertical and horozontal view) on a mobile phone (Blackview) and on a tablet (Samsung Galaxy).
+- Laptop: The website was tested on an Asus Vivobook 17" laptop, providing a comprehensive view of the website's layout and responsiveness. Additionally, a connected 37" monitor was utilized to evaluate the website's performance on larger screens.
+
+- Mobile Phone: Testing also included mobile devices such as the Blackview smartphone, ensuring that the website functions optimally in both vertical and horizontal views. This guarantees a user-friendly experience for visitors accessing the site on their smartphones.
+
+- Tablet: The website was tested on a Samsung Galaxy tablet to ensure proper display and functionality on tablet devices, optimizing the browsing experience for users who prefer this form factor.
 
 ### Performance
 
@@ -106,6 +132,30 @@ Also on a Laptop (Asus Vivobook 17") with a connected 37" monitor. It also has b
 ---
 
 ## Deployment
+
+The Legendary Palatinate website has been deployed using GitHub Pages. You can access the live version of the website [here](https://your-website-url).
+
+### To deploy a GitHub repository to GitHub Pages, follow these steps:
+
+1. Go to the "Settings" tab in your GitHub repository.
+2. Select "Pages" from the left menu.
+3. In the "Source" section, choose "Deploy from a branch" and select the branch you want to deploy (e.g., main).
+4. Click "Save" to apply the changes.
+5. GitHub will take a short while to publish the website. Once deployed, the URL will be displayed.
+
+### If you would like to make changes to the repository without affecting the original, you can create a fork:
+
+1. Log into GitHub and navigate to the repository.
+2. Click the "Fork" button at the top of the screen to create a copy of the repository in your own GitHub account.
+
+### To create a local clone of the repository for development or further modifications:
+
+1. In the GitHub repository, click the "Code" button.
+2. Under the "HTTPS" tab, click the clipboard icon to copy the repository's URL.
+3. Open your preferred terminal or Git client.
+4. Navigate to the desired directory where you want to create the clone.
+5. Use the command `git clone [repository URL]` to clone the repository.
+6. Press Enter, and the local clone will be created.
 
 ---
 
@@ -118,6 +168,7 @@ Also on a Laptop (Asus Vivobook 17") with a connected 37" monitor. It also has b
 
 [hero-image.jpg](https://commons.wikimedia.org/wiki/File:Blick_in_den_Pf%C3%A4lzerwald_von_der_Burg_Neuscharfeneck.jpg)
 [paper.png] own creation with Gimp (solid noise filter, seamless-tiling filter)
+![paper texture](./assets/images.png)
 
 ### Video
 
@@ -140,12 +191,11 @@ I used [Fontjoy](https://fontjoy.com/) to find suitable pairings of Google-Fonts
   - Palatinate Forest
   - Elwetritsch
 
-- Link to relevant site
-- Authors name/pseudonym
-
 ---
 
 ## Future Features
+
+I ran out of time to add images.
 
 ---
 
@@ -154,5 +204,7 @@ I used [Fontjoy](https://fontjoy.com/) to find suitable pairings of Google-Fonts
 - Checkboxes don't react to "require"-condition.
 
 ## Acknowledgements
+
+This website was created as a portfolio 1 project for the Full Stack Software Development course at [Code Institute](https://codeinstitute.net/). I would like to thank my mentor, [Harry Dhillon](https://github.com/Harry-Leepz), for the guidance and encouragement given throughout the project. Following his valuable feedback and advice, the website has been refined to be more intuitive and it has improved the overall user experience.
 
 - [Markdown Cheatsheet by Adam Pritchard](https://github.com/adam-p/markdown-here/wiki/Markdown-Cheatsheet)
