@@ -6,7 +6,6 @@
     border: none;
     box-sizing: border-box;
 }
-
 body {
     font-family: Pridi, serif;
     font-weight: 300;
@@ -14,20 +13,16 @@ body {
     background: #bed2da;
     position: relative;
 }
-
 a {
     text-decoration: none;
     color:#029b38;
 }
 a:hover {
 	color: #63029b;
-
 }
-
 p {
     margin-bottom: 1em;
 }
-
 h1 h2 {
     font-family: Cormorant Infant, sans-serif;
     text-transform: uppercase;
@@ -45,21 +40,19 @@ h1 h2 {
     z-index: 2;
     padding: 10px;
 }
-
 #logo {
     font-size: 20vw;
     font-weight: bold;
     font-family: UnifrakturMaguntia, cursive;
     text-transform: initial;
     letter-spacing: 2px;
-    color: #9d4b09;
+    color: #682f00;
     text-align: center;
     display: flex;
     flex-direction: column;
     align-items: center;
     justify-content: center;
 }
-
 #menu ul {
     font-size: 110%;
     letter-spacing: 2px;
@@ -69,11 +62,9 @@ h1 h2 {
     margin-top: 10px;
     list-style-type: none;
 }
-
 #menu li {
     margin-right: 1em;
 }
-
 #menu a:hover, .active {
     border-bottom: 1px solid #3a3a3a;
 }
@@ -82,7 +73,6 @@ h1 h2 {
     position: relative;
     height: 600px;
 }
-
 #hero-image {
     height: 100%;
     width: 100%;
@@ -111,12 +101,10 @@ h1 h2 {
     z-index: 2;
     padding: 10px; 
 }
-
 #cover-text h1 {
     margin-bottom: 10px;
     text-transform: uppercase;
 }
-
 #cover-text h2 {
     font-size: 1em;
     letter-spacing: 2px;
@@ -127,11 +115,9 @@ h1 h2 {
     flex-direction: column;
     align-items: center;
 }
-
 section {
     margin-top: 20px;
 }
-
 .content {
     max-width: 90%;
     width: 100%;
@@ -140,22 +126,35 @@ section {
     flex-wrap: wrap;
     justify-content: space-between;
 }
+/* aside */
+aside {
+    color: black;
+    font-size: smaller;
+    line-height: 0.95;
+    background-color: #e6e8ba;
+    border-radius: 6px;
+    padding: 15px;
+    margin-top: 20px;
+}
+aside ul {
+    padding-left: 20px;
+}
+aside ul li {
+    margin-bottom: 10px;
+}
 /* footer */
 .social-networks {
     text-align: center;
 }
-
 .social-networks > li{
     display:inline;
 }
-
 .social-networks i {
     font-size: 160%;
     margin: 1%;
     padding: 5%;
     color:#029b38;
 }
-
 footer .social-networks a:hover i {
     color: #63029b;
 }
@@ -166,7 +165,6 @@ footer .social-networks a:hover i {
     overflow: auto;
     margin: 10px 0 10px 0;
 }
-
 .latintext {
     text-align: center;
     width: 50%;
@@ -192,7 +190,6 @@ footer .social-networks a:hover i {
     line-height: 0.9rem;
     background: #efcda0
 }
-
 .flexcontainer {
     display: flex;
 }
@@ -237,15 +234,12 @@ fieldset.form-section {
     border-radius: 10px;
     padding: 10px 15px 20px 25px;
 }
-
-
 label.block-label {
     display: block;
     margin-bottom: 0.5em;
-    color: #3a3a3a;
+    color: #9d4b09;
     font-size: 1.1em;
 }
-
 input[type="text"],
 input[type="email"],
 textarea,
@@ -258,31 +252,11 @@ datalist {
     box-sizing: border-box;
     margin-bottom: 1em;
 }
-
 datalist option {
     color: #3a3a3a;
 }
-
 textarea {
     resize: vertical;
-}
-
-input[type="checkbox"] {
-    margin-right: 0.5em;
-}
-
-input[type="radio"] {
-    margin-right: 0.5em;
-}
-#terms {
-    height: 100px;
-    width: 100%;
-    background-color: #b4b4b4;
-    border: 1px solid grey;
-    overflow-y: scroll;
-    overflow-x: hidden;
-    font-size: 0.8em;
-    color: #555;
 }
 /* buttons */
 input[type="submit"],
@@ -295,13 +269,10 @@ input[type="reset"] {
     cursor: pointer;
     border-radius: 4px;
 }
-
 input[type="submit"]:hover,
 input[type="reset"]:hover {
      background-color: #63029b;
-
 }
-
 .float-left {
     display: flex;
     flex-direction: column;
@@ -314,27 +285,22 @@ input[type="reset"]:hover {
         flex-direction: row;
         justify-content: space-between;
     }
-
     #logo { 
         font-size: 5vw;
     }
-
     #menu ul {
         margin-top: 10px;
     }
-
     .content {
         width: 75%;
         max-width: 960px;
     }
 }
-
 @media (max-width: 768px) {
     #header {
         justify-content: center;
        
-    }
-       
+    }       
     #menu ul {
         justify-content: center;
     }
