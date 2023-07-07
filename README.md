@@ -14,8 +14,6 @@ Through storytelling, a fictional hunting association invites you on an adventur
 
 [CyberCygnus @ Github](https://github.com/CyberCygnus/legendary-palatinate)
 
----
-
 ## Features
 
 ### Navigation bar
@@ -39,8 +37,6 @@ User can register and give feedback with a form.
 ### The Footer
 
 The footer section includes links to social media sites.
-
----
 
 ## UX/UI
 
@@ -107,8 +103,6 @@ I prefer a traditional approach to wireframing, starting with the simplicity of 
 
 ![wireframe](./assets/screenshots/screen-inkscape.webp)
 
----
-
 ## Testing
 
 The website has been tested for responsiveness with Google-Inspect.
@@ -116,18 +110,28 @@ The website has been tested for responsiveness with Google-Inspect.
 ### Device testing
 
 - Laptop: The website was tested on an Asus Vivobook 17" laptop, providing a comprehensive view of the website's layout and responsiveness. Additionally, a connected 37" monitor was utilized to evaluate the website's performance on larger screens.
-
 - Mobile Phone: Testing also included mobile devices such as the Blackview smartphone, ensuring that the website functions optimally in both vertical and horizontal views. This guarantees a user-friendly experience for visitors accessing the site on their smartphones.
-
 - Tablet: The website was tested on a Samsung Galaxy tablet to ensure proper display and functionality on tablet devices, optimizing the browsing experience for users who prefer this form factor.
+
+### Accessibility
+
+**Google Chrome Lighthouse**
+![Google Chrome Lighthouse](./assets/screenshots/Screenshot_2023-07-07_184530.png)
 
 ### Performance
 
 **Code Validators**
-[w3-Validator](https://validator.w3.org/#validate_by_input)
-[w3-jigsaw](https://jigsaw.w3.org/css-validator/)
+![Sites passed all tests.](./assets/screenshots/Screenshot_2023-07-07_183621.png)
 
----
+HTML:
+
+- [w3-Validator - home](https://validator.w3.org/nu/?doc=https%3A%2F%2Fcybercygnus.github.io%2Flegendary-palatinate%2Findex.html)
+- [w3-Validator - forest](https://validator.w3.org/nu/?doc=https%3A%2F%2Fcybercygnus.github.io%2Flegendary-palatinate%2Fforest.html)
+- [w3-Validator - legends](https://validator.w3.org/nu/?doc=https%3A%2F%2Fcybercygnus.github.io%2Flegendary-palatinate%2Flegends.html)
+
+CSS:
+
+- [w3-jigsaw](https://jigsaw.w3.org/css-validator/validator?uri=https%3A%2F%2Fcybercygnus.github.io%2Flegendary-palatinate%2Fassets%2Fcss%2Fstyle.css&profile=css3svg&usermedium=all&warning=1&vextwarning=&lang=en)
 
 ## Deployment
 
@@ -155,9 +159,7 @@ The Legendary Palatinate website has been deployed using GitHub Pages. You can a
 5. Use the command `git clone [repository URL]` to clone the repository.
 6. Press Enter, and the local clone will be created.
 
----
-
-## Credits - Citation of ALL Sources
+## Credits
 
 - [Chrome DevTools](https://developer.chrome.com/docs/devtools/)
 - [How to Properly Layout A Website - For Beginners](https://youtu.be/3C_22eBWpjg)
@@ -190,15 +192,9 @@ I used [Fontjoy](https://fontjoy.com/) to find suitable pairings of Google-Fonts
   - Palatinate Forest
   - Elwetritsch
 
----
-
 ## Future Features
 
-I want to add images.
-
----
-
-## Known Bugs
+I want to add images and more content.
 
 ## Acknowledgements
 
