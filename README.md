@@ -4,7 +4,7 @@ Welcome to Palatinate Hunting, a web project designed to immerse users in the en
 
 Through storytelling, a fictional hunting association invites you on an adventure deep into the heart of the Palatinate Forest. Discover the untold stories of mythical creatures, led by the legendary Eletrische, a majestic and elusive being that captures the imagination of hunters and nature enthusiasts alike.
 
-![website responsiveness](./assets/screenshots/resp_palatinate.jpg)
+![website responsiveness](./docs/resp_palatinate.jpg)
 
 ## Live Website
 
@@ -24,7 +24,7 @@ When hovered over, the colour of all links changes from green to violette, which
 ### The landing page image (hero-image)
 
 The Hero-image is a photography taken from Wikipedia. It is a panorama view over the palatinate forest with a ruin of a castle.
-![hero-image](./assets/screenshots/hero-image_small.webp)
+![hero-image](./docs/hero-image_small.webp)
 
 ### The Source Text
 
@@ -101,7 +101,7 @@ There are three fonts used in the website and they are imported from [Google Fon
 
 I prefer a traditional approach to wireframing, starting with the simplicity of pen and paper to sketch out my initial ideas. Once I have a basic outline, I utilize Inkscape, a powerful vector graphics editor, to refine and add details to my wireframes.
 
-![wireframe](./assets/screenshots/screen-inkscape.webp)
+![wireframe](./docs/screen-inkscape.webp)
 
 ## Testing
 
@@ -116,12 +116,12 @@ The website has been tested for responsiveness with Google-Inspect.
 ### Accessibility
 
 **Google Chrome Lighthouse**
-![Google Chrome Lighthouse](./assets/screenshots/Screenshot_2023-07-07_184530.png)
+![Google Chrome Lighthouse](./docs/Screenshot_2023-07-07_184530.png)
 
 ### Performance
 
 **Code Validators**
-![Sites passed all tests.](./assets/screenshots/Screenshot_2023-07-07_183621.png)
+![Sites passed all tests.](./docs/Screenshot_2023-07-07_183621.png)
 
 HTML:
 
@@ -166,9 +166,10 @@ The Legendary Palatinate website has been deployed using GitHub Pages. You can a
 
 ### Images
 
-[hero-image.jpg](https://commons.wikimedia.org/wiki/File:Blick_in_den_Pf%C3%A4lzerwald_von_der_Burg_Neuscharfeneck.jpg)
-[paper.png] own creation with Gimp (solid noise filter, seamless-tiling filter)
-![paper texture](./assets/images.png)
+- [hero-image.jpg](https://commons.wikimedia.org/wiki/File:Blick_in_den_Pf%C3%A4lzerwald_von_der_Burg_Neuscharfeneck.jpg)
+
+- Backgound of Latin text - own creation with Gimp: solid noise filter & seamless-tiling filter.
+  ![paper texture](./docs/paper.png)
 
 ### Video
 
