@@ -34,6 +34,8 @@ On the legends-page is an excerpt of Julius Caesars famous book about the Gallic
 
 ### Registration Form
 
+User can register and give feedback with a form.
+
 ### The Footer
 
 The footer section includes links to social media sites.
@@ -41,8 +43,6 @@ The footer section includes links to social media sites.
 ---
 
 ## UX/UI
-
-## UX: User Experience
 
 ### User Stories
 
@@ -58,8 +58,6 @@ As a user of Legendary Palatinate, I expect:
 ### Site Goals and Initial Concept
 
 The initial concept of Legendary Palatinate is to create a touristic website that emulates a real hunting club, aiming to attract tourists to the enchanting Palatinate Forest region. The website aims to provide an immersive experience, offering visitors the opportunity to explore the untold legends of the forest, learn about the mythical Elwetrisch creature, and be inspired to participate in hunting events. As the project evolves, it has the potential to become an information portal for the rich history, cultural events, hotels, and restaurants of the region, showcasing its ancient castles and ruins dating back to the Celts and Romans. By blending captivating storytelling, educational content, and interactive features, the website seeks to engage visitors and ignite their curiosity about the beauty of the Palatinate Forest.
-
-### Design Thought Process
 
 ### Technologies Used
 
@@ -88,7 +86,8 @@ The website consists of three pages:
 - forest-page with three sections
   - about the forest
   - touristic image video from YouTube
-  - Google map
+  - Google map of the region
+  - additional lore about the "Elewetritsch"
 
 ### Colors
 
@@ -107,13 +106,12 @@ There are three fonts used in the website and they are imported from [Google Fon
 I prefer a traditional approach to wireframing, starting with the simplicity of pen and paper to sketch out my initial ideas. Once I have a basic outline, I utilize Inkscape, a powerful vector graphics editor, to refine and add details to my wireframes.
 
 ![wireframe](./assets/screenshots/screen-inkscape.webp)
-![Structure](./assets/screenshots/palatinate_structure.jpg)
 
 ---
 
 ## Testing
 
-The website has been tested for responsiveness with Google-Inspector.
+The website has been tested for responsiveness with Google-Inspect.
 
 ### Device testing
 
@@ -182,11 +180,12 @@ I used [Fontjoy](https://fontjoy.com/) to find suitable pairings of Google-Fonts
 
 - [The "Aspect Ratio Box" method](https://www.freecodecamp.org/news/responsive-web-design-how-to-make-a-website-look-good-on-phones-and-tablets/)
 - Form based on course example (Coder's Coffeeshop).
+- [Flexbox](https://www.w3schools.com/css/css3_flexbox.asp)
+- [Media-queries](https://www.w3schools.com/css/css_rwd_mediaqueries.asp)
 
 ### Text Content
 
 - Wikipedia
-
   - Palatinate Forest Nature Park
   - Palatinate Forest
   - Elwetritsch
@@ -195,13 +194,11 @@ I used [Fontjoy](https://fontjoy.com/) to find suitable pairings of Google-Fonts
 
 ## Future Features
 
-I ran out of time to add images.
+I want to add images.
 
 ---
 
 ## Known Bugs
-
-- Checkboxes don't react to "require"-condition.
 
 ## Acknowledgements
 
